@@ -136,31 +136,7 @@ header,
     color: black;
     border: 3px solid black;
 }
-@keyframes preview {
-	0% {
-		transform: translate(0);
-	}
 
-	20% {
-		transform: translate(-2px, 2px);
-	}
-
-	40% {
-		transform: translate(-2px, -2px);
-	}
-
-	60% {
-		transform: translate(2px, 2px);
-	}
-
-	80% {
-		transform: translate(2px, -2px);
-	}
-
-	100% {
-		transform: translate(0);
-	}
-}
 .content2 {
     height: 100vh;
     display: flex;
@@ -168,12 +144,8 @@ header,
     box-sizing: border-box;
     padding: 20px;
     align-items: center;
-    /* background-image: url(../foto/abstract-smooth-empty-grey-studio-well-use-as-background-business-report-digital-website-template-backdrop.jpg); */
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .images1 img {
-    animation: preview 2s ease 0s infinite alternate backwards;
     max-width: 400px;
     border-radius: 12px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
@@ -201,11 +173,13 @@ header,
     background-size: cover;
 }
 .images2 img {
-    animation: preview 2s ease 0s infinite alternate backwards;
     max-width: 400px;
     border-radius: 12px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 
+}
+.images1 img:hover, .images2 img:hover {
+    opacity: 0.5;
 }
 .box-page3 {
     display: flex;
@@ -279,6 +253,50 @@ header,
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
+}
+.bali {
+    background-image: url(../foto/bali-beaches-8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.5);
+}
+.bali:hover, .japan:hover, .singapore:hover, .canada:hover, .edinburgh:hover, .thirdf:hover {
+    filter: brightness(1);
+}
+.japan {
+    background-image: url(../foto/Bronwyn-Townsend-kyoto-8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.5);
+
+}
+.singapore {
+    background-image: url(../foto/imagesingapore.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.5);
+
+}
+.canada {
+    background-image: url(../foto/imagescanada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.5);
+
+}
+.edinburgh {
+    background-image: url(../foto/victoria-street-edinburgh-819x1024.webp);
+    background-repeat: no-repeat;
+    filter: brightness(0.5);
+
+    background-size: cover;
+}
+.thirdf {
+    background-image: url(../foto/world-map-stunning-4k-resolution-explore-countries_924931-985.avif);
+    background-repeat: no-repeat;
+    filter: brightness(0.5);
+
+    background-size: cover;
 }
 
 
