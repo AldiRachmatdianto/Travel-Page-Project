@@ -17,30 +17,34 @@ body {
 }
 header {
     /* background-image: url(../foto/abstract-smooth-empty-grey-studio-well-use-as-background-business-report-digital-website-template-backdrop.jpg); */
-    height: 60px;
+    height: 50px;
     position: fixed;
     width: 100%;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 header,
 .navbar ul {
     z-index: 9999;
-
     gap: 2rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: #fff;
+
 }
 .navbar ul li {
     list-style-type: none;
 
+
+
 }.navbar ul li a {
-    font-size: 1.2em;
+    font-size: 1em;
     text-decoration: none;
     color: black;
+    font-weight: bolder;
+
     
     
-    font-weight: 600;
 }
 @keyframes logo {
 	0% {
@@ -163,7 +167,7 @@ header,
     box-sizing: border-box;
     padding: 20px;
     align-items: center;
-    background-image: url(../foto/abstract-smooth-empty-grey-studio-well-use-as-background-business-report-digital-website-template-backdrop.jpg);
+    /* background-image: url(../foto/abstract-smooth-empty-grey-studio-well-use-as-background-business-report-digital-website-template-backdrop.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -191,7 +195,7 @@ header,
     box-sizing: border-box;
     padding: 20px;
     align-items: center;
-    background-image: url(../foto/abstract-smooth-empty-grey-studio-well-use-as-background-business-report-digital-website-template-backdrop.jpg);
+    /* background-image: url(../foto/abstract-smooth-empty-grey-studio-well-use-as-background-business-report-digital-website-template-backdrop.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -218,7 +222,7 @@ header,
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    background-image: url(../foto/abstract-smooth-empty-grey-studio-well-use-as-background-business-report-digital-website-template-backdrop.jpg);
+    /* background-image: url(../foto/abstract-smooth-empty-grey-studio-well-use-as-background-business-report-digital-website-template-backdrop.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -270,7 +274,7 @@ header,
 
 .content5 {
     height: 100vh;
-    background-image: url(../foto/abstract-smooth-empty-grey-studio-well-use-as-background-business-report-digital-website-template-backdrop.jpg);
+    /* background-image: url(../foto/abstract-smooth-empty-grey-studio-well-use-as-background-business-report-digital-website-template-backdrop.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -317,6 +321,7 @@ header,
         height: auto;
         flex-direction: column;
         align-items: center;
+        gap: 1rem;
     }
     .navbar ul {
         flex-wrap: wrap;
